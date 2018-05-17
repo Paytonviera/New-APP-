@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Weather App</title>
+	<meta charset="UTF-8">
+	
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+  <div id="floating-panel">
+  <input id="address" type="textbox" value="City, State">
+  <input id="submit" type="button" value="Geocode">
+</div>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk6SXGKq8aMRAokKgKLV0hOqBA6EdYSC4&callback=initMap">
+</script>
+  
+  
+  </body>
+  </html>
